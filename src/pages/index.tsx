@@ -1,3 +1,13 @@
+import Head from 'next/head'
+
 export default function Home(): JSX.Element {
-  return <h1>Hello World</h1>
+  return (
+    <>
+      <Head>
+        <title>Home | Painty</title>
+      </Head>
+
+      <h1>Hello World</h1>
+    </>
+  )
 }
